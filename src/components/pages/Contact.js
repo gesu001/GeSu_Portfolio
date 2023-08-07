@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './style.css';
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../utils/helpers';
@@ -45,40 +44,56 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <h2>Contact</h2>
-      <form className="form">
-        <label for="userName" className="form-label">Name</label>
+    <div className="p-5 mb-5">
+      <div className="card bg-info text-dark h-100">
+      <h2 className="p-5">Contact</h2>
+
+      <form className="form px-5">
+        <div className='mb-3'>
+        <label for="userName" className="form-label fs-3">Name</label>
         <input
+          className="form-control"
           value={userName}
           name="userName"
           onChange={handleInputChange}
           type="text"
           placeholder="Your Name"
         />
-        <label for="email" className="form-label">Email</label>
+        </div>
+        <div className='mb-3'>
+        <label for="email" className="form-label fs-3">Email</label>
         <input
+          className="form-control"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="Email"
         />
-        <label for="textarea" className="form-label">Message</label>
+        </div>
+        <div className='mb-3'>
+        <label for="textarea" className="form-label fs-3">Message</label>
         <textarea
+          className="form-control"
           value={text}
           name="text"
           onChange={handleInputChange}
           type="text"
           placeholder='Message'
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
+        </div>
+        
+        {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text fs-4">{errorMessage}</p>
         </div>
       )}
+        <div className='mb-3'>
+        <button className="btn btn-primary fs-4" type="button" onClick={handleFormSubmit}>Submit</button>
+        </div>
+      </form>
+      
+      </div>
     </div>
   );
 }

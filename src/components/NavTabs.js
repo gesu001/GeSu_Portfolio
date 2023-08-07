@@ -11,8 +11,9 @@ const styles = {
   header: {
     color: 'yellow',
     padding: 10,
-    fontSize: 100,
+    fontSize: 85,
     margin: 10,
+    textAlign: 'center'
   }
 }
 
@@ -30,7 +31,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
         <div>
           <ul className="nav nav-tabs color-yellow">
-            <li className="nav-item">
+            <li className="nav-item fs-2 px-3">
               <a
                 href="#about"
                 onClick={() => handlePageChange('About')}
@@ -40,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 About
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-2 px-3">
               <a
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
@@ -50,7 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 Portfolio
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-2 px-3">
               <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
@@ -60,7 +61,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 Contact
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item fs-2 px-3">
               <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
