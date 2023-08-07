@@ -3,8 +3,8 @@ import React from 'react';
 export default function About() {
   return (
   <div className="p-5 mb-5">  
-    <div className="card bg-info text-dark h-auto">
-      <div className="card-body ">
+    <div className="card bg-info text-dark h-auto shadow p-3 m-5 rounded">
+      <div className="card-body">
         <h1 className="card-title p-5">About Me</h1>
         <p className="fs-3 p-3">
           My name is Ge Su. I am an IT student studing in Deakin University Melbourne. I am currently doing an on-line full-stack web developing coding bootcamp in University of Adelaide. 

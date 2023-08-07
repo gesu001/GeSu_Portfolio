@@ -45,7 +45,7 @@ export default function Contact() {
 
   return (
     <div className="p-5 mb-5">
-      <div className="card bg-info text-dark h-100">
+      <div className="card bg-info text-dark h-100 shadow p-3 m-5 rounded">
       <h2 className="p-5">Contact</h2>
 
       <form className="form px-5">

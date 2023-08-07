@@ -1,14 +1,20 @@
 import React from 'react';
+
 const resumeURL = 'http://localhost:3000/GeSu_Resume.pdf'
 
 export default function Resume() {
   const downloadFileAtURL=(url)=>{
-    
+  const fileName =url.split('/').pop()
+  const aTag = document.createElement('a')
+  aTag.href=url
+  aTag.setAttribute('download', fileName)
+  document.body.appendChild(aTag)
+  aTag.click()
   }
   return (
     <div>
       <div className="p-5 mb-5">  
-        <div className="card bg-info text-dark h-100">
+        <div className="card bg-info text-dark h-100 shadow p-3 m-5 rounded">
         <h2 className="card-title p-5">Resume </h2>
         <button onClick={()=>{downloadFileAtURL(resumeURL)}}>Download</button>
         <div  className="row g-3">
