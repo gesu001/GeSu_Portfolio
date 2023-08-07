@@ -1,6 +1,6 @@
 # GeSu_Portfolio
 
-[](https://github.com/gesu001/Employee-Tracker/assets/125954857/611db2a7-fb24-4390-8729-c072164cbcb6)
+![GeSu_Portfolio](./src/images/Portfolio.png)
 
 ## Description
 
@@ -36,12 +36,10 @@ Clone the repository to you local computer by using the command line
 
     git clone https://github.com/gesu001/GeSu_Portfolio.git
 
-
 Open the root directory in the integrated terminal, run the application by using command line:
 
     npm i
     npm start
-
 
 ## Contributing
 
