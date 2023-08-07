@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gesu001/GeSu_Portfolio/static/css/main.da3089f3.css",
+    "main.js": "/gesu001/GeSu_Portfolio/static/js/main.9a9a298c.js",
+    "static/media/social-network.png": "/gesu001/GeSu_Portfolio/static/media/social-network.b9b9c6a385263db1d894.png",
+    "static/media/web-developer.jpg": "/gesu001/GeSu_Portfolio/static/media/web-developer.d6decbcab224e7c40290.jpg",
+    "static/media/api.jpg": "/gesu001/GeSu_Portfolio/static/media/api.e92334aaef151d5d52d6.jpg",
+    "static/media/weather.png": "/gesu001/GeSu_Portfolio/static/media/weather.adbef6c7cf2570cec4a0.png",
+    "static/media/mysql.jpg": "/gesu001/GeSu_Portfolio/static/media/mysql.75254afcfff2d03b1161.jpg",
+    "static/media/react.png": "/gesu001/GeSu_Portfolio/static/media/react.175c974f5f0ec521baaf.png",
+    "static/media/node.png": "/gesu001/GeSu_Portfolio/static/media/node.660b3aa5241f89b8616a.png",
+    "index.html": "/gesu001/GeSu_Portfolio/index.html",
+    "main.da3089f3.css.map": "/gesu001/GeSu_Portfolio/static/css/main.da3089f3.css.map",
+    "main.9a9a298c.js.map": "/gesu001/GeSu_Portfolio/static/js/main.9a9a298c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3089f3.css",
+    "static/js/main.9a9a298c.js"
+  ]
+}
