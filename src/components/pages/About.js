@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-  <div className="p-5 mb-5">  
+  <div className>  
     <div className="card bg-info text-dark h-auto shadow p-3 m-5 rounded">
       <div className="card-body">
         <h1 className="card-title p-5">About Me</h1>
