@@ -15,8 +15,8 @@ export default function Resume() {
     <div>
       <div className="p-5 mb-5">  
         <div className="card bg-info text-dark h-100 shadow p-3 m-5 rounded">
-        <h2 className="card-title p-5">Resume </h2>
-        <button onClick={()=>{downloadFileAtURL(resumeURL)}}>Download</button>
+        <h1 className="card-title p-5">Resume <span><button className="btn btn-tertiary" onClick={()=>{downloadFileAtURL(resumeURL)}}><em>Download Resume</em></button></span></h1>
+        
         <div  className="row g-3">
         <div className="col-6 px-5">
             <h3 className="card-title">Front-end Proficienies</h3>

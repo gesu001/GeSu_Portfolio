@@ -1,4 +1,5 @@
 import axios from 'axios';
+import download from 'js-file-download';
 
 axios({
   url: 'http://localhost:5000/static/example.pdf',
@@ -12,3 +13,10 @@ axios({
   document.body.appendChild(link);
   link.click();
 });
+
+// downloadfile = () => {
+//   axios.get("localhost:3000/route/path/url")
+//     .then(resp => {
+//            download(resp.data, filename);
+//     });
+// }
