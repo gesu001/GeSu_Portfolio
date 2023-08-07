@@ -1,51 +1,29 @@
 import React from 'react';
 
-import webImg from '../../src/images/web-developer.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
- const styles = {
-  bg: {
-    backgroundImage: `url(${webImg})`,
-    height: '8vh',
-    width: '100%',
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    // backgroundPosition: 'bottom',
-  },
-  footer: {
-    color: 'yellow',
-    padding: 10,
-    fontSize: 25,
-    text: 'center',
-  }
-}
+
 
 function Footer() {
   return (
-    <div style={styles.bg} className='fixed-bottom'>
-        <h1 style={styles.footer} className='text-center'>Welcome visit my Github</h1>
-        <div className="d-flex justify-content-center mt-4" md="12">
-                <div md="3" className="d-flex justify-content-around">
-                  <a href><icon
-                    fab
-                    icon="linkedin-in"
-                    className="grey-text"
-                    size="lg"
-                  /></a>
-                  <a href><icon
-                    fab
-                    icon="twitter"
-                    className="grey-text"
-                    size="lg"
-                  /></a>
-                  <a href><icon
-                    fab
-                    icon="facebook-f"
-                    className="grey-text"
-                    size="lg"
-                  /></a>
-                </div>
-              </div>
-    </div>
+    <div className='d-flex justify-content-center py-2'>
+      <div className='p-2'>
+        <a href='https://github.com/gesu001' target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} className='fa-3x'/>
+        </a>
+      </div>
+      <div className='p-2'>
+        <a href='https://www.linkedin.com/in/ge-su-4b319388/'target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} className='fa-3x'/>
+        </a>
+      </div>
+      <div className='p-2'>
+        <a href='https://twitter.com/' target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faTwitter} className='fa-3x'/>
+        </a>
+      </div>    
+  </div>
   );
 }
 
