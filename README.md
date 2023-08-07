@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# GeSu_Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[](https://github.com/gesu001/Employee-Tracker/assets/125954857/611db2a7-fb24-4390-8729-c072164cbcb6)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This portfolio application is created with React and BootStrap. It containes the author's general information, project details, contact method and a downloadable resume.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Bootstrap
 
-### `npm test`
+Node.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+NPM
 
-### `npm run build`
+JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Visual Studio Code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Click the link to install [Node.js](https://nodejs.org/en). To install dependencies, use the command line:
 
-### `npm run eject`
+```
+npm i
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To use this application, click the link [GeSu_Portfolio](https://github.com/gesu001/GeSu_Portfolio) to the github repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the repository to you local computer by using the command line
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    git clone https://github.com/gesu001/GeSu_Portfolio.git
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open the root directory in the integrated terminal, run the application by using command line:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    npm i
+    npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Credits
 
-### Making a Progressive Web App
+N/A
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+Please refer to the LICENSE in the repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 💡 Reference
 
-### Deployment
+The Javascript code of this application refers to the following documentations:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [React](https://legacy.reactjs.org/)
 
-### `npm run build` fails to minify
+- [Node.js](https://nodejs.org/en)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Github](https://github.com/)
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+- [w3school](https://www.w3schools.com/js/default.asp)
+
+- [Bootstrap](https://getbootstrap.com/)
+
+- [FontAwsome](https://fontawesome.com/)
+
+- [npm](https://www.npmjs.com/package/inquirer)
+
+- [How to download files in React JS ](https://www.youtube.com/watch?v=IPEqb_AJbAQ)
+
+© 2023 GE SU @Melbourne. Confidential and Proprietary. All Rights Reserved.
